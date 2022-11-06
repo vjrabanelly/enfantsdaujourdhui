@@ -1,0 +1,263 @@
+.tabs-content {
+    overflow: hidden;
+    padding: 5px 10px;
+    border: 1px solid #BBBBBB;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+#tabs-wrap {
+    position: fixed;
+    overflow-y: auto;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+}
+
+#tabs-editor {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px;
+    margin: 100px auto 0;
+    min-height: 100px;
+    overflow: hidden;
+    padding: 20px;
+    width: 800px;
+}
+
+#add-tabs-content {
+    min-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#tabs-new-title {
+    float: left;
+    width: 50%;
+}
+
+
+.tabs-line > label {
+    float: left;
+    width: 100%;
+}
+
+#tabs-new-content {
+    min-height: 200px;
+    width: 50%;
+}
+
+.tabs-line {
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tabs-prev-title {
+    border-bottom: 1px solid #555555;
+    font-size: 16px;
+    padding: 5px 10px 8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.tabs-cont-remove {
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.tabs-prev {
+    border: 1px solid #BBBBBB;
+    margin: 0 0 10px;
+    padding: 20px;
+}
+
+.tabs-data-input {
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.tabs-data-input label {
+    padding: 0 10px 0 0;
+    font-weight: bold;
+}
+
+.additional-fields {
+    border: 1px solid #BBBBBB;
+    display: none;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+	position: relative;
+}
+
+.add-fields-remove {
+    border: 1px solid #979797;
+    cursor: pointer;
+    float: right;
+    padding: 0 4px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.additional-fields-add {
+	float: right;
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+	display: none;
+}
+
+.tabs-prev select {
+    float: right;
+    font-size: 12px;
+    height: 20px;
+    margin: 0 10px;
+    width: 50px;
+	padding: 0;
+}
+
+.tabs-cont-edit {
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 3px;
+    padding: 0 4px;
+}
+
+.tabs-save-cancel {
+    display: none;
+}
+
+.tabs-editor-title {
+    color: #99AABB;
+    font-family: arial;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.tabs-title {
+    float: left;
+    width: 100%;
+}
+
+.tabs-body {
+    float: left;
+    width: 100%;
+    border: 2px solid #0c6ac6;
+    border-top: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    min-height: 200px;
+	padding-top: 10px;
+}
+
+.tabs-title li {
+    max-width: 50%;
+    float: left;
+    border-style: solid;
+    border-color: #efefef #efefef #0c6ac6 #efefef;
+    border-left: none;
+	border-width: 2px 2px 2px 0;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    height: 50px;
+    margin: 0px;
+    border-radius: 0 5px 0 0;
+    position: relative;
+	padding-bottom: 10px;
+}
+
+.tabs-title li:hover .dm-add-tab, 
+.tabs-title li:hover .dm-remove-tab {
+    display: block;
+}
+
+.dm-add-tab {
+    color: #0C6AC6;
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    height: 18px;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+    top: 21px;
+    width: 20px;
+}
+
+.dm-remove-tab {
+   /* background: url("../../images/bt_dm_close.png") no-repeat scroll center center transparent;*/
+    color: #0C6AC6;
+    cursor: pointer;
+    display: none;
+    font-size: 26px;
+    height: 20px;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+    /*text-indent: -9998px;*/
+    top: 0px;
+    width: 20px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.tabs-title li.current {
+    border-bottom: none;
+    border-color: #0c6ac6 !important;
+}
+
+.dm-content-wrap .tabs-title li input {
+    width: 80%;
+    width: calc(100% - 25px);
+	float: left;
+}
+
+.tabs-title li:first-child {
+    border-left: 2px solid #efefef;
+}
+
+.tabs-body li {
+    width: 100%;
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+.tabs-body li textarea {
+    min-height: 200px;
+}
+
+.tabs-body li:first-child {
+    display: block;
+}
+
+.dm-type-tabs textarea.dm-input:hover,
+.dm-type-tabs textarea.dm-input:focus {
+	/*border: 2px solid #efefef;*/
+}
+
+.tabs-title li.current {
+    border-left: 2px solid;
+    border-right: 2px solid;
+}

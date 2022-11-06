@@ -1,0 +1,227 @@
+.widget-preview {
+    text-align: center;
+}
+
+.offer-wrap{
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 20px;
+	text-align: center;
+}
+
+.offer{
+    float: none;
+    width: 240px;
+    margin-right: 30px;
+	display: inline-block;
+	text-align: left;
+}
+
+.offer h4,
+.offer h5{
+    text-transform: uppercase;
+}
+
+.offer h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.offer h5{
+    font-size: 14px;
+}
+
+.offer li{
+    padding-top: 20px;
+    width: 100%;
+    height: 140px;
+    border-top-width: 1px;
+}
+
+.offer .offer-img{
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+.offer .offer-img img {
+    max-height: 60px;
+    max-width: 90px;
+	margin-right: 0px;
+}
+
+.offer-narrow .wp-post-image {
+    height: auto;
+    width: 30%;
+}
+
+.offer-content{
+    float: right;
+    width: 70%;
+	width: calc(70% - 10px);
+}
+
+.offer .offer-price{
+    display: block;
+    font-weight: bold;
+    clear: both;
+}
+
+.offer del, .product del {
+    font-size: 80%;
+    text-decoration: line-through;
+}
+
+/* narrow *********/
+.offer-narrow.offer{
+}
+
+.offer-wrap .widget li {
+	margin-top: 0px;
+}
+
+.offer-wrap .offer-narrow ul li{
+	margin-top: 0px;
+}
+
+.offer-narrow .offer-content {
+    float: left;
+    text-align: left;
+}
+
+
+ /**
+ * 3.3 Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+.widget-title,
+.widget-title a,
+.widget-title a:visited{
+	color: inherit;
+}
+ 
+.widget {
+	margin-top: 24px;
+	font-size: 16px;
+	color: inherit;
+}
+ 
+.widget li {
+    border-top-width: 1px;
+	border-top-style: solid;
+    float: left;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+	position: relative;
+}
+ 
+.sidebar .widget li > a {
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 5px;
+}
+ 
+.widget li span {
+	color: inherit;
+}
+ 
+.widget .wp-post-image {
+    float: left;
+    margin: 0 10px 0 0;
+}
+ 
+.widget .quantity, 
+.widget .amount {
+    bottom: 0;
+    /*position: absolute;*/
+}
+
+.widget .wc-forward {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+
+.widget .button {
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+    margin: 0 0 10px;
+}
+
+.widget p {
+    background-color: rgba(0, 0, 0, 0);
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.widget dl p, 
+.widget dt p, 
+.widget dd p {
+	width: auto;
+}
+
+/* Shop Filter */
+
+
+.price_slider {
+    background-color: #76AFCC;
+    float: left;
+    height: 1px;
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+	width: calc(100% - 11px);
+}
+
+.ui-slider-range {
+    background-color: #0871A3;
+    height: 1px;
+    position: absolute;
+    top: 0;
+}
+
+.ui-slider-handle {
+    background-color: #0871A3;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 11px;
+    position: absolute;
+    top: -5px;
+    width: 11px;
+}
+
+.widget_price_filter .price_label {
+    float: left;
+    padding: 10px 0;
+}
+
+.widget_price_filter .button {
+    float: right;
+    padding: 10px;
+    width: auto;
+}
+
+.sidebar-3 aside {
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    float: none;
+    margin: 0 60px;
+    padding: 20px 0;
+    vertical-align: top;
+    width: 290px;
+}
+
+.sidebar-4 aside {
+    font-weight: 300;
+    width: 210px;
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+

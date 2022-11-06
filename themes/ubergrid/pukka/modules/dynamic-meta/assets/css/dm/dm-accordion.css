@@ -1,0 +1,72 @@
+.dm-meta-accordion-box {
+    border-top: 2px solid #EFEFEF;
+    cursor: move;
+    margin: 40px -10px 0;
+    padding: 0 10px;
+    position: relative;
+}
+
+.dm-meta-accordion-box:first-child {
+    border-top: medium none;
+    margin-top: 0;
+}
+
+.dm-add-accordion {
+    bottom: -30px;
+    color: #0C6AC6;
+    cursor: pointer;
+    display: none;
+    font-size: 60px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.dm-meta-accordion-box:hover .dm-add-accordion {
+    display: block;
+}
+
+.accordion-box-open {
+	background: url(../../images/bt_acc_open.png) no-repeat scroll center center transparent;
+    color: #999999;
+    cursor: pointer;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+	text-indent: -9999px;
+}
+
+.dm-meta-accordion-box .dm-content-box {
+    display: none;
+	margin-bottom: 5px;
+}
+
+.dm-meta-accordion-box .dm-title {
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+.dm-type-accordion .dynamic-meta-box-wrap {
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.dm-meta-accordion-box .dm-input-tools .wp-picker-holder {
+    top: -230px;
+}
+
+.dm-type-accordion .dm-content-wrap {
+	margin-bottom: 0px;
+}
+
+.dm-type-accordion .dynamic-meta-box-wrap {
+	border-bottom: none;
+}

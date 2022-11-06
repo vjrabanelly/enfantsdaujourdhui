@@ -1,0 +1,1408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UberGrid 1.2.4\n"
+"POT-Creation-Date: 2014-05-26 15:49+0100\n"
+"PO-Revision-Date: 2014-05-26 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Pukka <office@pukkathemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_nx:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../archive.php:10
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives quotidiennes&nbsp;: %s"
+
+#: ../archive.php:13
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles&nbsp;: %s"
+
+#: ../archive.php:16
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles&nbsp;: %s"
+
+#: ../archive.php:19
+msgid "Archives"
+msgstr "Archives"
+
+#: ../comments.php:14
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réflexion au sujet de  &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réflexions au sujet de &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:35
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: ../comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: ../comments.php:41
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: ../content-none.php:4
+msgid "Nothing Found"
+msgstr "Rien n'a été trouvé"
+
+#: ../content-none.php:8
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Toutes nos excuses, mais votre requête n&rsquo;a donné aucun résultat. Peut-"
+"être qu&rsquo;une recherche peut vous indiquer un article lié."
+
+#: ../functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../functions.php:96
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../functions.php:159
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../functions.php:161 ../functions.php:171
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../functions.php:169
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../functions.php:190 ../pukka/util/init-theme-options.php:26
+#: ../pukka/util/init-theme-options.php:27
+msgid "Theme settings"
+msgstr ""
+
+#: ../functions.php:198
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:97
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:322
+msgid "Front page manager"
+msgstr ""
+
+#: ../functions.php:401
+msgid "Posts navigation"
+msgstr "Navigation des articles"
+
+#: ../functions.php:405
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: ../functions.php:409
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../functions.php:431
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: ../functions.php:442
+#, php-format
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles de %s"
+
+#: ../functions.php:448 ../functions.php:454
+msgid ", "
+msgstr ""
+
+#: ../functions.php:568
+msgid "(This page is a placeholder for front page)"
+msgstr ""
+
+#: ../functions.php:589
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../functions.php:594
+msgid "Leave a Comment"
+msgstr "Laisser un commentaire"
+
+#: ../functions.php:595
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: ../functions.php:596
+msgid "Cancel Reply"
+msgstr "Annuler la réponse."
+
+#: ../functions.php:597
+msgid "Post Comment"
+msgstr "Laisser un commentaire"
+
+#: ../functions.php:600
+msgid "Your text"
+msgstr "Le texte"
+
+#: ../functions.php:605
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Vous devez <a href=\"%s\">être connecté</a> pour rédiger un commentaire."
+
+#: ../functions.php:611
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Connecté en tant que <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Se "
+"déconnecter de ce compte\">Se déconnecter?</a>"
+
+#: ../functions.php:618
+msgid "Your email address will not be published."
+msgstr "Votre adresse de messagerie ne sera pas publiée."
+
+#: ../functions.php:632
+msgid "Name"
+msgstr "Nom"
+
+#: ../functions.php:637 ../pukka/util/init-theme-options.php:593
+msgid "Email"
+msgstr "Adresse de contact"
+
+#: ../functions.php:642
+msgid "Website"
+msgstr "Site web"
+
+#: ../functions.php:676
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:679
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#: ../functions.php:686
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:686
+msgid "(Edit)"
+msgstr ""
+
+#: ../search.php:9
+#, php-format
+msgid "Search Results for: %s"
+msgstr " Flux de résultats de la recherche pour: %s"
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Recherche"
+
+#: ../pukka/framework/php/html.helper.class.php:102
+msgid "Reset settings"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:105
+msgid "Save settings"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:499
+msgid "Select.."
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:636
+msgid "Select image"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:636
+msgid "Select"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:636
+msgid "Upload"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:637
+#: ../pukka/framework/php/html.helper.class.php:713
+msgid "Remove"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:712
+msgid "Choose an icon"
+msgstr ""
+
+#: ../pukka/framework/php/html.helper.class.php:745
+msgid "Widget area title"
+msgstr ""
+
+#: ../pukka/framework/php/pukka.theme.class.php:213
+#: ../pukka/framework/php/pukka.theme.class.php:271
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:556
+msgid "You do not have sufficient permissions to save these options."
+msgstr ""
+
+#: ../pukka/framework/php/pukka.theme.class.php:250
+msgid "All setting saved!"
+msgstr ""
+
+#: ../pukka/framework/php/pukka.theme.class.php:265
+msgid "Reset done!"
+msgstr ""
+
+#: ../pukka/framework/php/importer/parsers.class.php:42
+#: ../pukka/framework/php/importer/parsers.class.php:72
+#: ../pukka/framework/php/importer/parsers.class.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../pukka/framework/php/importer/parsers.class.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../pukka/framework/php/importer/parsers.class.php:84
+#: ../pukka/framework/php/importer/parsers.class.php:89
+#: ../pukka/framework/php/importer/parsers.class.php:279
+#: ../pukka/framework/php/importer/parsers.class.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:118
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:127
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:178
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:182
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:191
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:119
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:183
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:199
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:224
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:250
+msgid "Assign Authors"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:251
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:253
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:263
+msgid "Import Attachments"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:266
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:283
+msgid "Import author:"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:294
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:297
+msgid "as a new user:"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:305
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:307
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:308
+msgid "- Select -"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:358
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:409
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:449
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:495
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:636
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:521
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:543
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:602
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:767
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:774
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:837
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:850
+msgid "Invalid file type"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:894
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:900
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:907
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:912
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:918
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:1017
+msgid "Import WordPress"
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:1024
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:1039
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../pukka/framework/php/importer/wordpress.importer.class.php:1040
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.contact.class.php:158
+msgid "Email address:"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.contact.class.php:161
+msgid "Message:"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.contact.class.php:201
+#, fuzzy
+msgid "Your Email"
+msgstr "Adresse de contact"
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.contact.class.php:202
+msgid "Subject"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.contact.class.php:203
+msgid "Message"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.contact.class.php:204
+msgid "Send"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.cta.class.php:100
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.image.class.php:149
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:105
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.tabs.class.php:112
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.text.class.php:100
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.widget.area.class.php:138
+msgid "Enter title here"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.cta.class.php:102
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.tabs.class.php:118
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.text.class.php:102
+msgid "Enter content here"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.cta.class.php:103
+msgid "Call To Action Button Text"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.cta.class.php:104
+msgid "Call To Action Link"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.divider.class.php:97
+msgid "Divider Height"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.divider.class.php:101
+msgid "Margin top/bottom"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:109
+msgid "Map Height"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:113
+msgid "Zoom Level"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:117
+msgid "Latitude"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:121
+msgid "Longitude"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:125
+msgid "Desc. width"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:130
+msgid "Marker icon"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:131
+msgid "Leave blank for default"
+msgstr ""
+
+#: ../pukka/modules/dynamic-meta/include/dm/dynamic.meta.map.class.php:135
+msgid "Description"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:324
+msgid "Add custom content"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:325
+msgid "Add post"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:328
+msgid "Add category widget"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:329
+msgid "Save"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:404
+msgid "Post"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:411
+msgid "Category"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:415
+msgid "Custom content"
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:440
+msgid "Pick a category: "
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:483
+msgid "Banner: "
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:567
+msgid "No featured content submited/content deleted."
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/featured.content.class.php:611
+msgid "Content updated."
+msgstr ""
+
+#: ../pukka/modules/grid-layout/include/functions.php:660
+#: ../pukka/util/init-theme-options.php:124
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: ../pukka/modules/grid-layout/include/functions.php:692
+#, fuzzy
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: ../pukka/modules/grid-layout/include/functions.php:692
+#, fuzzy
+msgid "1 Comment"
+msgstr "Laisser un commentaire"
+
+#: ../pukka/modules/grid-layout/include/functions.php:692
+#, fuzzy
+msgid "% Comments"
+msgstr "Laisser un commentaire"
+
+#: ../pukka/modules/grid-layout/include/functions.php:742
+msgid "share"
+msgstr ""
+
+#: ../pukka/util/init-post-meta.php:52
+msgid "Media URL"
+msgstr ""
+
+#: ../pukka/util/init-post-meta.php:53
+msgid ""
+"Youtube, vimeo, dailymotion, soundcloud.. <br /> (complete list: http://"
+"codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F)"
+msgstr ""
+
+#: ../pukka/util/init-post-meta.php:60
+msgid "Media embed code"
+msgstr ""
+
+#: ../pukka/util/init-post-meta.php:61
+msgid ""
+"Enter here embed code from any other media service. Width should be set to "
+"695px. <br />(For YouTube put <b>?wmode=transparent</b> after youtube "
+"link, \n"
+"\t\t\t\t\te.g. http://www.youtube.com/watch?v=cZUiMixMMz<b>?"
+"wmode=transparent</b>)"
+msgstr ""
+
+#: ../pukka/util/init-post-meta.php:69
+msgid "Link"
+msgstr ""
+
+#: ../pukka/util/init-post-meta.php:70
+msgid "Insert the URL you wish to link to."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:28
+msgid ""
+"Control and configure UBERGRID Theme.<br /> If you have any issues please go "
+"through Documentation or contact our support team."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:33
+msgid "General settings"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:36
+msgid "Logo"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:37
+msgid "Upload your logo. Ideal/maximum width should be 200px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:41
+msgid "Retina logo"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:42
+msgid ""
+"Upload your double-sized logo for retina displays. Ideal/maximum width "
+"should be 400px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:46
+msgid "Plain text logo"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:47
+msgid ""
+"Insert text which will be displayed if image logo is missing. Default is "
+"Site Title."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:51
+msgid "Plain text logo color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:52
+msgid "Color of the text logo which is displayed if image logo is missing."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:58
+msgid "Logo for Mobile Menu"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:59
+msgid "Logo image for Mobile Menu. Maximum/Ideal height is 36px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:63
+msgid "Favicon"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:64
+msgid ""
+"Upload your favicon image. Image pixel dimension must be in square aspect "
+"ratio (meaning height must be equal to the width). <br />Acceptable "
+"dimensions: mimumum 32x32px, maximum 64x64px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:68
+msgid "Analytics code"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:69
+msgid ""
+"Paste your tracking code here. <br />(Google Analytics, AWStats, Piwick, "
+"Statcounter, ...)."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:73
+msgid "Copyright text "
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:74
+msgid ""
+"If you have Copyright text insert it here. Copyright will be published "
+"bellow navigation."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:78
+msgid "Single author site"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:79
+msgid ""
+"Select this feature in order to hide author's name from specific pages and "
+"post categories."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:83
+msgid "Hide language switcher"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:84
+msgid "Select this feature in order to hide default language switcher (flags)."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:88
+msgid "Right sidebar width"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:89
+msgid "Here you can select the right sidebar width."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:97
+msgid "Use page builder in posts"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:98
+msgid "Select this feature in order to enable using page builder in posts."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:102
+#: ../pukka/util/init-theme-options.php:107
+msgid "Use grid layout for categories"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:103
+msgid "Select this in case you want to have grid layout for categories."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:108
+msgid ""
+"Select for which categories you want to use grid layout. It will be used for "
+"all if no category is selected."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:117
+msgid "Default category Box Size"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:118
+msgid ""
+"Select default Box Size for categories. This is important if you are using "
+"grid layout for categories."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:125
+msgid ""
+"Enter custom read more text / character.<br/>Use html entities: http://www."
+"webmonkey.com/2010/02/special_characters/ <br/>You can also style this "
+"using .moretag CSS class (via \"Custom CSS\") "
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:129
+msgid "Popup submenu"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:130
+msgid ""
+"Select this option if you want submenu in left sidebar to be shown i popup "
+"bouble."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:134
+msgid "Enable HTML in Dynamic Meta Page Builder"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:135
+msgid ""
+"Select this feature in order to enable using HTML codes in page builder. "
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:143
+msgid "Social"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:146
+msgid "Social buttons"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:156
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:157
+msgid ""
+"Insert your Facebook App ID. This means you now need to create a Facebook "
+"app to perform integration. <br /><br/ >Don't worry, creating an app is "
+"easy, you don't need to be a developer to create an app here. <br />Visit <a "
+"href=\"https://developers.facebook.com/apps/\">https://developers.facebook."
+"com/apps/</a> and click create new app."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:161
+msgid "Enable Facebook Open Graph Tags"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:162
+msgid ""
+"If you are using some other Social plugin, then you may want to disable this."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:166
+msgid "Facebook like button"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:167
+msgid "Add Facebook \"Like\" Button to Each Post/Page"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:171
+msgid "Tweet button"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:172
+msgid "Add Tweet Button to Each Post/Page"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:176
+msgid "Google+ button"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:177
+msgid "Add Google+ Button to Each Post/Page"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:181
+msgid "LinkedIn button"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:182
+msgid "Add LinkedIn Button to Each Post/Page"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:186
+msgid "Pinterest button"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:187
+msgid "Add Pinterest Button to Each Post/Page"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:191
+msgid "Disable social buttons on Pages"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:192
+msgid "Choose this option in order to disable social buttons on Pages."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:196
+msgid "Add links to your Social Networks"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:199
+msgid "Facebook URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:200
+msgid "Facebook Fan Page URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:204
+msgid "Twitter URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:205
+msgid "Twitter account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:209
+msgid "Google+ URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:210
+msgid "Google+ account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:214
+msgid "Soundcloud URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:215
+msgid "Soundcloud account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:219
+msgid "Youtube URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:220
+#: ../pukka/util/init-theme-options.php:225
+msgid "Youtube account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:224
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:229
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:230
+msgid "LinkedIn account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:234
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:235
+msgid "Pinterest account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:239
+msgid "Picasa URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:240
+msgid "Picasa account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:244
+msgid "Instagram URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:245
+msgid "Instagram account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:249
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:250
+msgid "Tumblr account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:254
+msgid "Flickr URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:255
+msgid "Flickr account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:259
+msgid "Deviantart URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:260
+msgid "Deviantart account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:264
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:265
+msgid "Dribbble account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:269
+msgid "Reddit URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:270
+msgid "Reddit account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:274
+msgid "Behance URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:275
+msgid "Behance account URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:279
+msgid "RSS URL"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:280
+msgid "RSS URL."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:284
+msgid "Custom icons"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:285
+msgid ""
+"You can add your custom icons here, for example: <br /> &lt;a target=&quot;"
+"_blank&quot; href=&quot;YOUR_URL&quot;&gt;&lt;img src=&quot;ICON_URL&quot; "
+"width=&quot;20&quot; height=&quot;20&quot; /&gt;&lt;/a&gt;"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:292
+msgid "Home page content"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:295
+msgid "Front page grid display"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:296
+msgid "Check this box if you want front page to use grid based dispaly."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:300
+msgid "Use Front Page Manager"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:301
+msgid ""
+"Select this feature in order to manage front page boxes from Front Page "
+"Manager. In case you don't select this option, latest posts will be "
+"published on your front page."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:305
+msgid "Enable infinite scroll"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:306
+msgid ""
+"Choose this feature in order to enable infinite scroll (endless page) on "
+"your homepage."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:310
+msgid "Max number of front page boxes"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:311
+msgid ""
+"Set up maximum number of boxes on your homepage. <br />Also, this number is "
+"the number of boxes loaded when using infinite scroll."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:319
+msgid "Max front page width"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:320
+msgid ""
+"Set up maximum width for your front page by choosing number of columns. One "
+"column equals small or medium box width."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:326
+msgid "Default Box Size"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:327
+msgid ""
+"Choose default box size. We would recommend you choose this, especially if "
+"you use infinite scroll or latest posts."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:333
+msgid "Home page Box Date"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:334
+msgid "Choose do you want to show Dates of Posts/Pages on Home page Boxes."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:339
+msgid "Right sidebar on Front Page"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:340
+msgid "Choose do you want to enable Right sidebar on Front Page."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:345
+msgid "Front Page Categories"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:346
+msgid ""
+"If you want to show only latest posts from certain categories on your "
+"homepage, then you can select categories here. Keep in mind that this will "
+"work only if you aren't using Front Page Manager."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:355
+msgid "Block sizes"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:361
+msgid ""
+"<strong>Here you can change block width, height, margin, image width and "
+"image height. You should be careful with this, because it will re-size your "
+"images, so don't change it if there isn't good reason.</strong>"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:367
+msgid ""
+"<strong>Keep in mind that you are changing medium box (basic box), and that "
+"other box sizes are calculated automatically from this setting, so choose "
+"wisely.</strong>"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:370
+msgid "Basic Block Width"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:371
+msgid ""
+"This setting changes the width of the medium box. Other box sizes are "
+"calculated automatically from this setting, so choose wisely.  Default width "
+"is 225px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:380
+msgid "Basic Block Height"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:381
+msgid ""
+"This setting changes the width of the medium box. Other box sizes are "
+"calculated automatically from this setting, so choose wisely.  Default width "
+"is 500px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:390
+msgid "Block margin"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:391
+msgid ""
+"Select spacing between blocks on front page. Default block margin is 5px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:400
+msgid "Basic block image width"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:401
+msgid ""
+"Here you can choose Basic block image width. Other box sizes are calculated "
+"automatically from this setting, so choose wisely. This should be the same "
+"number as \"Basic block width\" option, but, it's your choice. Default width "
+"is 225px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:410
+msgid "Basic block image height"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:411
+msgid ""
+"Here you can choose Basic block image height. Other box sizes are calculated "
+"automatically from this setting, so choose wisely. Default height is 290px."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:423
+msgid "Style"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:426
+msgid "Theme color scheme"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:427
+msgid "You can change entire theme color scheme here."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:435
+msgid "Text color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:436
+msgid "Body text color."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:443
+msgid "Heading color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:451
+msgid "Link color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:459
+msgid "Big brick stripe color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:467
+msgid "Medium brick stripe color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:475
+msgid "Small brick stripe color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:483
+msgid "Featured image stripe color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:491
+msgid "Button color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:499
+msgid "Sidebar menu text color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:507
+msgid "Sidebar menu hover text color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:515
+msgid "Sidebar submenu text color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:523
+msgid "Sidebar submenu hover text color"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:531
+msgid "Custom CSS"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:532
+msgid ""
+"If you have some CSS changes enter them here or use the custom .css file"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:536
+msgid "Custom JS"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:537
+msgid ""
+"If you have some JS that you want to add, you can add it here. Do not "
+"surround your code with &lt;script&gt; tags, it will brake the code."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:544
+msgid "Typography"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:547
+msgid "Title Font"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:550
+msgid "Change Title Font"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:551
+msgid ""
+"You can change title font here. Simply select a different font from the font "
+"drop-down menu"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:557
+msgid "Title Font Effect"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:558
+msgid ""
+"Choose effect for your title font (Warning: all effects are not supported in "
+"all browsers)."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:564
+msgid "Text Font"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:567
+msgid "Change Text Font"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:568
+msgid ""
+"You can change text font here. Simply select a different font from the font "
+"drop-down menu."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:574
+msgid "Text Font Effect"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:575
+msgid ""
+"Choose effect for your text font (Warning: all effects are not supported in "
+"all browsers)."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:581
+msgid "Add cyrillic character set"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:582
+msgid ""
+"Choose this option to enable cyrillic characters in you google fonts. (Note "
+"that not all google fonts support cyrillic character set)"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:590
+msgid "Forms"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:594
+msgid ""
+"Add your email address here. All emails from custom Forms (Page Builder) "
+"will be sent to this address."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:598
+msgid "Thank you notification"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:599
+msgid ""
+"Insert text for your \"Thank You\" page here. For example: Thanks for "
+"getting in touch! We'll reach out to you within 24 hours either by phone or "
+"email!."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:603
+msgid "Error notification"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:604
+msgid ""
+"Add text that will be displayed in case error occurred during form "
+"submission."
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:616
+msgid "Content importer"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:619
+msgid "Pukka demo content importer"
+msgstr ""
+
+#: ../pukka/util/init-theme-options.php:620
+msgid ""
+"This is importer for theme demo content. Please only use it on fresh "
+"WordPress installs with empty database. Otherwise, results might be somewhat "
+"unexpected."
+msgstr ""

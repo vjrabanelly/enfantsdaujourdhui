@@ -1,0 +1,65 @@
+.num-up-down {
+    border: 1px solid #CCCCCC;
+    color: #555555;
+    display: inline-block;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    padding: 2px;
+    width: 120px;
+}
+
+.num-up-down input {
+    float: left;
+    height: 32px;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 80px;
+}
+
+.num-up-down-bp, 
+.num-up-down-bm {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 1px 1px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.num-up-down-sp {
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 11px;
+    line-height: 12px;
+    margin: 5px 0 1px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 11px;
+    cursor: pointer;
+}
+
+.num-up-down-sm {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 11px;
+    line-height: 9px;
+    margin: 1px 0 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 11px;
+}

@@ -1,0 +1,16 @@
+.dm-type-contact .dm-content-wrap .dm-title {
+    border: 2px solid #efefef !important;
+}
+
+.dynamic-meta-box.dm-type-contact label {
+    margin-bottom: 0px;
+    float: none;
+	display: none;
+}
+
+.dm-type-contact .dm-content-box {
+    border: 2px solid #efefef !important;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 75px;
+}

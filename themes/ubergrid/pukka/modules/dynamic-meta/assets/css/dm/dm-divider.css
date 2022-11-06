@@ -1,0 +1,16 @@
+.dm-type-divider .dynamic-meta-box-title {
+    border-bottom: none;
+}
+
+.dm-type-divider .dm-size-controls {
+	min-height: 70px;
+}
+
+.dm-type-divider {
+	margin-bottom: 0px;
+}
+
+.dm-type-divider .dm-content-wrap {
+    margin-bottom: 0;
+    margin-top: 0;
+}

@@ -1,0 +1,158 @@
+#pukka-wrap .box .featured-remove:before{
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+#pukka-wrap .box{
+	background-color: #fff;
+    height: 140px;
+    border: 1px solid #e6e6e6;
+	border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+#pukka-wrap div.featured-box-title {
+	margin-bottom: 0px;
+}
+
+.featured-box-content {
+	padding: 10px;
+	position: relative;
+}
+
+#pukka-wrap .box p{
+    margin: 0;
+}
+
+#pukka-wrap .box h5{
+    margin: 0;
+    font-size: 16px;
+}
+
+#pukka-wrap .box h5 span {
+	font-size: 90%;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#pukka-wrap .box img{
+    float: left;
+    padding: 0 5px 5px 0;
+    width: 75px;
+    height: auto;
+}
+
+#pukka-wrap .box .ui-autocomplete-loading {
+    background-position: 98% center;
+    background-repeat: no-repeat;
+}
+
+#pukka-wrap .box textarea {
+    left: 10px;
+    max-height: 85px;
+    max-width: 95%;
+	max-width: calc(95% - 200px);
+    min-height: 85px;
+    position: absolute;
+    top: 10px;
+    width: 95%;
+	width: calc(95% - 200px);
+}
+
+#pukka-wrap .box .featured-size{
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 5px;
+}
+
+#pukka-wrap .box .featured-banner{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 80px;
+
+}
+
+#featured-form {
+    max-width: 950px;
+	counter-reset: section;
+}
+
+.featured-controls {
+    margin-left: 25px;
+}
+
+.featured-box-controls {
+    background-color: #232323;
+    border-radius: 5px 0 0 5px;
+    color: #FFFFFF;
+    height: 90px;
+    left: -31px;
+    position: absolute;
+    top: 10px;
+    width: 30px;
+}
+
+.box .featured-remove,
+.box .featured-pin {
+	display: block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.box .featured-remove {
+	background: url('../images/bt_dm_close.png') no-repeat scroll center center transparent;
+}
+
+.box .featured-pin {
+	background: url('../images/bt_dm_pin.png') no-repeat scroll center center transparent;
+}
+
+.box .featured-remove:hover,
+.box .featured-pin:hover,
+.box .featured-pin.pinned {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.box .featured-pin input[type=checkbox] {
+	display: none;
+}
+
+.featured-counter {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	color: #a6a6a6;
+}
+
+.featured-counter:before {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 30px;
+	counter-increment: section;
+	content: counter(section) ".";
+}
+
+.featured-add-post-input {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 200px;
+	display: none;
+	z-index: 100;
+}

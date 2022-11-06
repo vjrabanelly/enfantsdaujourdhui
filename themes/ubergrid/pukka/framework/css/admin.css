@@ -1,0 +1,943 @@
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Utils
+ * 2.0 - General
+ *   2.1 - Theme options heading
+ *   2.2 - Theme options tabs
+ * 3.0 - Form elements and layout
+ *   3.1 - Section
+ *   3.2 - Inputs and buttons
+ *   3.3 - Side metaboxes
+ *   3.4 - Custom select box
+ *   3.5 - Custom checkbox (iCheck plugin Polaris skin)
+ *   3.6 - Font Awesome Picker
+ *   3.7 - Dynamic input
+ * 4.0 - Notifications
+ * 5.0 - Import page
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Utils
+ * ----------------------------------------------------------------------------
+ */
+.pukka-clearfix:before,
+.pukka-clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.pukka-clearfix:after {
+    clear: both;
+}
+
+.pukka-clearfix{
+    *zoom: 1;
+}
+
+
+/**
+ * 2.0 General
+ * ----------------------------------------------------------------------------
+ */
+#pukka-wrap{
+	max-width: 1200px;
+	color: #727272;
+	margin-right: 20px;
+}
+
+#pukka-wrap a,
+.pukka-input a{
+	outline: none;
+	text-decoration: none;
+	color: #727272;
+}
+
+#pukka-wrap h1,
+#pukka-wrap h2{
+	font-weight: 400;
+	color: #133129;
+}
+
+#pukka-wrap h1{
+	font-size: 46px;
+	line-height: 100%;
+    font-weight: lighter;
+}
+
+#pukka-wrap h2{
+    margin-top: 0;
+    padding-top: 10px;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+#pukka-wrap h3{
+	margin: 0 0 10px 0;
+}
+
+#pukka-wrap h4{
+	font-size: 26px;
+	font-weight: 400;
+	color: #727272;
+    margin: 0 0 15px;
+}
+
+#pukka-wrap div{
+
+}
+
+#pukka-wrap .pukka-fields{
+    margin-left: 250px;
+    min-height: 400px;
+    margin-bottom: 30px;
+}
+
+/**
+ * 2.1 Theme options heading
+ * ----------------------------------------------------------------------------
+ */
+#pukka-wrap #pukka-heading{
+	margin-top: 20px;
+	position: relative;
+}
+
+#pukka-logo {
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+}
+
+#pukka-logo img {
+    vertical-align: middle;
+}
+
+#pukka-wrap #pukka-heading h1,
+#pukka-wrap .page-description{
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100px;
+}
+
+#pukka-wrap #pukka-heading h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 350px;
+	padding-left: 250px;
+}
+
+/**
+ * 2.2 Theme options tabs
+ * ----------------------------------------------------------------------------
+ */
+#pukka-wrap .pukka-tabs{
+	position: relative;
+}
+
+#pukka-wrap .pukka-tabs ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	margin: 0;
+	border-left: 1px solid #ccc;
+}
+
+#pukka-wrap .pukka-tabs li{
+	margin-bottom: 0;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	/*background: #DFDFDF;*/
+}
+
+#pukka-wrap .pukka-tabs li:first-child{
+	border-top: 1px solid #ccc;
+}
+
+#pukka-wrap .pukka-tabs li.ui-tabs-active{
+	border-right: none;
+}
+
+#pukka-wrap .pukka-tabs li:first-child.ui-tabs-active{
+	border-top: none;
+	padding-top: 1px;
+}
+
+#pukka-wrap .pukka-tabs li:last-child.ui-tabs-active{
+	border-bottom: none;
+}
+
+#pukka-wrap .pukka-tabs li.ui-tabs-active,
+#pukka-wrap .pukka-tabs li.ui-tabs-active a{
+	color: #133129;
+    font-weight: bold;
+}
+
+#pukka-wrap .pukka-tabs li a{
+	display: block;
+	padding: 10px;
+	color: #8f8f8f;
+	text-decoration: none;
+}
+
+#pukka-wrap .pukka-tabs li i:before{
+	padding-right: 5px;
+}
+
+
+
+/**
+ * 3.0 Form elements and layout
+ * ----------------------------------------------------------------------------
+ */
+
+#pukka-wrap .pukka-input-wrap{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+    clear: left;
+}
+
+.pukka-input-description{
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+}
+
+#content-importer .pukka-input-description {
+    width: 95%;
+}
+
+.pukka-input{
+	float: left;
+	width: 50%;
+}
+
+#content-importer .pukka-input {
+    width: 95%;
+}
+
+.pukka-settings .pukka-input-wrap,
+.pukka-settings .pukka-input-description,
+.pukka-settings .pukka-input{
+    min-width: 350px;
+}
+
+
+.pukka-select select {
+    padding: 3px 10px 3px 3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    /*
+    -webkit-box-shadow: 2px 2px 1px 1px #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 2px 2px 1px 1px #ccc, 0 -1px #fff inset;
+    box-shadow: 2px 2px 1px 1px #ccc, 0 -1px #fff inset;
+    */
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+	height: auto;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .pukka-select select {padding-right:30px}
+}
+
+span.pukka-select  {position:relative}
+span.pukka-select:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+span.pukka-select:before {
+    content:'';
+    right: 3px; 
+	top: -1px;
+    width: 29px; 
+	height: 25px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+.dm-input-tools input[type="checkbox"],
+.pukka-input input[type="checkbox"] {
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+/**
+ * 3.1 Section
+ * ----------------------------------------------------------------------------
+ */
+#pukka-wrap .pukka-section{
+    margin-bottom: 20px;
+}
+
+#pukka-wrap .pukka-section-input-wrap{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 230px;
+}
+
+#pukka-wrap .pukka-section-input-wrap.half-size {
+	width: 110px;
+}
+
+#pukka-wrap .pukka-section-input-wrap:first-of-type{
+    margin-left: 0;
+}
+
+#pukka-wrap .pukka-section-input-wrap .pukka-input-description,
+#pukka-wrap .pukka-section-input-wrap .pukka-input{
+    width: auto;
+    min-width: 0;
+}
+
+#pukka-wrap .pukka-section-input-wrap h4{
+    font-size: 16px;
+}
+
+
+/* =Color picker fix
+----------------------------------------------- */
+#pukka-wrap .pukka-section-input-wrap .pukka-input{
+    height: 50px;
+}
+
+#pukka-wrap .pukka-section-input-wrap .wp-color-result,
+.widget-content .wp-color-result{
+    top: 4px; /* vertical align */
+}
+
+#pukka-wrap .pukka-section-input-wrap .wp-picker-holder{
+    top: 50px;
+}
+
+/**
+ * 3.2 Inputs and buttons
+ * ----------------------------------------------------------------------------
+ */
+.pukka-button,
+.pukka-button-primary{
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    outline: none;
+    font-weight: normal;
+    font-family: inherit;
+	position: relative;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.pukka-button,
+.pukka-button:hover,
+.pukka-button:focus{
+    color: #797979;
+    height: 30px;
+    line-height: 30px;
+
+    border: 1px solid #a6a6a6;
+
+    background: #f5f5f5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f5f5f5 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f5f5f5 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f5f5f5 0%,#e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f5f5f5 0%,#e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f5f5f5 0%,#e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+.pukka-button-primary,
+.pukka-button-primary:hover,
+.pukka-button-primary:focus{
+    border: none;
+    color: #FFFFFF !important;
+    height: 32px;
+    line-height: 32px;
+
+    background: #134029; /* Old browsers */
+    background: -moz-linear-gradient(top,  #134029 0%, #133429 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#134029), color-stop(100%,#133429)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #134029 0%,#133429 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #134029 0%,#133429 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #134029 0%,#133429 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #134029 0%,#133429 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#134029', endColorstr='#133429',GradientType=0 ); /* IE6-9 */
+}
+
+#pukka-wrap .pukka-ajax-load {
+	display: none;
+    float: right;
+    margin: 8px 10px 0 0;
+}
+
+#pukka-wrap .pukka-ajax-reset{
+	float: left;
+	display: none;
+    margin: 8px 10px 0;
+}
+
+.pukka-input{
+	position: relative;
+}
+
+.pukka-input > input[type='text'],
+.pukka-input > textarea{
+	width: 100%;
+}
+
+.pukka-input textarea{
+	height: 130px;
+}
+
+.pukka-input input[readonly="readonly"],
+.pukka-input input[readonly="readonly"]:focus{
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.pukka-input .wp-picker-holder{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: 999;
+}
+
+#pukka-wrap .pukka-img-wrap{
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	margin: 0 10px;
+}
+
+#pukka-wrap .pukka-file-placeholder{
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+#pukka-wrap #pukka-save-settings{
+	float: right;
+}
+
+#pukka-wrap #pukka-reset-settings {
+    float: left;
+    margin-left: 250px;
+}
+
+.pukka-input .pukka-upload-buttons{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.pukka-input .pukka-upload-buttons .pukka-remove-upload{
+    margin-top: 5px;
+    display: block;
+    text-align: right;
+}
+
+/**
+ * 3.3 Side metaboxes
+ * ----------------------------------------------------------------------------
+ */
+.pukka-input-wrap.pukka-side-meta,
+.pukka-input-wrap.pukka-side-meta .pukka-input{
+    width: 100%;
+}
+
+.pukka-input-wrap.pukka-side-meta .pukka-upload-buttons{
+    position: static;
+    bottom: auto;
+    right: auto;
+}
+
+.pukka-input-wrap.pukka-side-meta .pukka-upload-buttons .pukka-remove-upload{
+    text-align: left;
+}
+
+#pukka-wrap .pukka-input-wrap.two-cols{
+    float: left;
+    width: 50%;
+    height: 200px;
+    clear: none;
+}
+
+#pukka-wrap .pukka-input-wrap.input-short{
+    height: 100px;
+}
+
+/**
+ * 3.4 Custom select box
+ * ----------------------------------------------------------------------------
+ */
+.sbHolder{
+    background-color: transparent;
+    border: solid 1px #b2b2b2;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 30px;
+    position: relative;
+    width: 200px;
+    max-width: 100%;
+}
+
+.half-size .sbHolder {
+	width: 100px;
+}
+
+.sbHolder:focus .sbSelector,
+.sbHolder a,
+.sbHolder a:focus {
+    outline: none;
+}
+
+.sbSelector{
+    display: block;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10px;
+    top: 0;
+    width: 170px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover,
+#pukka-wrap .sbSelector:link, #pukka-wrap .sbSelector:visited, #pukka-wrap .sbSelector:hover{
+    color: #353535;
+    outline: none;
+    text-decoration: none;
+}
+.sbToggle{
+    background: url('../images/bt_acc_open.png') no-repeat scroll center center transparent;
+    display: block;
+    height: 30px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+}
+.sbToggle:hover{
+    background: url('../images/bt_acc_open.png') no-repeat scroll center center transparent;
+}
+.sbToggleOpen{
+    background: url('../images/bt_acc_open.png') no-repeat scroll center center transparent;
+}
+.sbToggleOpen:hover{
+    background: url('../images/bt_acc_open.png') no-repeat scroll center center transparent;
+}
+.sbHolderDisabled{
+    background-color: #3C3C3C;
+    border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+
+}
+.sbHolderDisabled .sbToggle{
+
+}
+.sbOptions {
+    background-color: #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px;
+    left: -1px;
+    list-style: none outside none;
+    margin: 0;
+    overflow-y: auto;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    max-width: 100%;
+    max-height: 225px !important;
+    z-index: 1;
+}
+
+.sbOptions li{
+    padding: 0 7px;
+    border: none !important;
+    margin-bottom: 6px !important;
+}
+.sbOptions a{
+    border-top: dotted 1px #b2b2b2;
+    display: block;
+    outline: none;
+    padding: 7px 0 7px 3px;
+}
+
+.sbOptions li:first-child a {
+    border-top: none;
+}
+.sbOptions a:link, .sbOptions a:visited,
+#pukka-wrap .sbOptions a:link, #pukka-wrap .sbOptions a:visited{
+    color: #979797;
+    text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus,
+#pukka-wrap .sbOptions a:hover,
+#pukka-wrap .sbOptions a:focus,
+#pukka-wrap .sbOptions a.sbFocus{
+    color: #353535;
+}
+.sbOptions li.last a{
+    border-bottom: none;
+}
+.sbOptions .sbDisabled{
+    border-bottom: dotted 1px #b2b2b2;
+    color: #999;
+    display: block;
+    padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+    border-bottom: dotted 1px #b2b2b2;
+    color: #EBB52D;
+    display: block;
+    font-weight: bold;
+    padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+    padding-left: 17px;
+}
+/* end custom selectbox */
+
+
+/**
+ * 3.5 Custom checkbox (iCheck plugin Polaris skin)
+ * ----------------------------------------------------------------------------
+ */
+.icheckbox_polaris,
+.iradio_polaris {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 29px;
+    height: 29px;
+    background: url(../images/polaris.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_polaris {
+    background-position: 0 0;
+}
+    .icheckbox_polaris.hover {
+        background-position: -31px 0;
+    }
+    .icheckbox_polaris.checked {
+        background-position: -62px 0;
+    }
+    .icheckbox_polaris.disabled {
+        background-position: -93px 0;
+        cursor: default;
+    }
+    .icheckbox_polaris.checked.disabled {
+        background-position: -124px 0;
+    }
+
+.iradio_polaris {
+    background-position: -155px 0;
+}
+    .iradio_polaris.hover {
+        background-position: -186px 0;
+    }
+    .iradio_polaris.checked {
+        background-position: -217px 0;
+    }
+    .iradio_polaris.disabled {
+        background-position: -248px 0;
+        cursor: default;
+    }
+    .iradio_polaris.checked.disabled {
+        background-position: -279px 0;
+    }
+
+/* Retina support */
+/*
+*   Enable when new icons are uploaded
+*
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_polaris,
+    .iradio_polaris {
+        background-image: url(../images/polaris@2x.png);
+        -webkit-background-size: 310px 31px;
+        background-size: 310px 31px;
+    }
+}
+*/
+
+
+/**
+ * 3.6 Font Awesome Picker
+ * ----------------------------------------------------------------------------
+ */
+li [class^="fa-"], .nav li [class^="fa-"], li [class*=" fa-"], .nav li [class*=" fa-"] {
+    display: inline-block;
+    width: 1.25em;
+    font-size: 17px;
+    text-align: center;
+}
+
+#pukka-fa-picker{
+    display: none;
+}
+
+#icons-dialog .modal-body {
+    max-height: 1000px;
+    padding-top: 20px;
+}
+
+#icons-dialog .tabbable .btn {
+    width: 80px;
+    margin-left: 5px;
+}
+
+#icons-dialog .tdIcon i {
+    font-size: 26px !important;
+    color: black;
+}
+
+#icons-dialog .tabbable td {
+    padding: 15px;
+}
+
+#icons-dialog .modal-footer{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* Tabs **/
+#icons-dialog #tab-titles{
+    height: 30px;
+    text-align: center;
+}
+
+#icons-dialog #tab-titles li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#icons-dialog .tab-pane{
+    display:none
+}
+
+#icons-dialog .tab-pane.active{
+    display: block;
+}
+
+.pukka-icon-preview{
+    display: inline-block;
+    width: 100px;
+    font-size: 60px;
+    text-align: center;
+}
+
+/**
+ * 3.7 Dynamic input
+ * ----------------------------------------------------------------------------
+ */
+
+.pukka-input-dynamic > input[type="text"],
+.pukka-input-dynamic input[readonly="readonly"]{
+    width: 90%;
+ }
+
+.pukka-input-dynamic .fa{
+    width: 5%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/**
+ * 4.0 Notifications
+ * ----------------------------------------------------------------------------
+ */
+.pukka-notification {
+    border-radius: 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    right: 20px;
+    position: fixed;
+    top: 30%;
+	top: calc(30% - 80px);
+	max-width: 100%;
+	border-width: 2px;
+	border-radius: 5px;
+	border-style: solid;
+}
+
+.pukka-notification.success {
+	background-color: #8bbb55;
+	border-color: #214926;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.pukka-notification.error {
+    background-color: #CB4B4A;
+    border-color: #6D1211;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.pukka-notification .message {
+    background-color: #DED8B8;
+    border-radius: 0 0 5px 5px;
+    margin-top: 40px;
+    min-height: 20px;
+    padding: 60px 10px 34px;
+    text-align: center;
+    width: 250px;
+}
+
+.pukka-notification .icon {
+    border-color: transparent;
+    border-radius: 35px;
+    height: 70px;
+    left: 100px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    width: 70px;
+}
+
+.pukka-notification .icon.success {
+	background: url('../images/save_ok.png') no-repeat scroll 0 0 transparent;
+}
+
+.pukka-notification .icon.error {
+	background: url('../images/save_error.png') no-repeat scroll 0 0 transparent;
+}
+
+.pukka-notification .signature {
+    font-size: 80%;
+	font-style: italic;
+    margin-top: 20px;
+	margin-bottom: -20px;
+    text-align: right;
+    width: 100%;
+}
+
+.dynamic-meta-box-title,
+.featured-box-title {
+	background-color: #eaeaea;
+    color: #525252;
+    cursor: move;
+    font-size: 20px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    text-align: center;
+	position: relative;
+}
+
+.mbox-left-corner {
+    background: url('../images/mbox_title_corner.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 22px;
+    left: 10px;
+    position: absolute;
+    top: 7px;
+    width: 22px;
+}
+
+.mbox-right-corner {
+    background: url('../images/mbox_title_corner.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 22px;
+    right: 10px;
+    position: absolute;
+    top: 7px;
+    width: 22px;
+}
+
+
+/**
+ * 5.0 Import page
+ * ----------------------------------------------------------------------------
+ */
+#pukka-import-frame {
+    background-color: #E6FFD2;
+    border: 1px solid #5E9150;
+    font-family: Lato;
+    font-size: 18px;
+    min-height: 100px;
+    line-height: 22px;
+    margin: 40px 0;
+    padding: 50px;
+    word-wrap: break-word;
+	display: none;
+}
+
+#pukka-import-frame.error {
+    background-color: #FFCFCF;
+    border: 1px solid #8D3131;
+}
+
+#pukka-import-frame h2 {
+    font-size: 18px;
+}
+
+#importer-description {
+    display: table-cell;
+    float: none;
+    height: 100px;
+    vertical-align: middle;
+    width: 400px;
+}
+
+#pukka-wrap h2#importer-title {
+	margin-bottom: 0px;
+}
+
+a#homepage-url {
+    color: #21759B;
+}
+
+.import-controls {
+    margin: 10px 0;
+    text-align: right;
+}

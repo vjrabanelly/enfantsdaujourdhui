@@ -1,0 +1,77 @@
+.dm-type-image .dm-image-preview {
+	float: none;
+	max-width: 100%;
+	cursor: pointer;
+}
+
+.dm-content-box.image-box {
+	text-align: center;
+}
+
+.dm-type-image .dm-content-wrap input[type="text"] {
+	width: 100%;
+	}
+
+.dm-image-controls {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: left;
+	width: 100%;
+}
+
+.dm-image-controls .sbHolder {
+	float: left;
+}
+
+.dm-add-image {
+	color: #FFA603;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 34px;
+	height: 20px;
+	line-height: 20px;
+	margin: 5px 10px 0 0;
+	text-align: center;
+	vertical-align: top;
+	width: 20px;
+}
+
+.dm-remove-image {
+	color: #979797;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	margin: 0 0 0 10px;
+	text-align: center;
+	vertical-align: middle;
+	width: 60px;
+}
+
+.dm-type-image .dm-content-wrap .dm-title {
+	margin-bottom: 0px;
+}
+
+.dm-type-image .image-size-select {
+	text-align: left;
+	cursor: pointer;
+	max-width: 100%;
+	max-width: calc(100% - 78px);
+	display: inline-block;
+	color: #979797;
+}
+
+#dynamic-meta-wrapper .dm-type-image .customSelectInner {
+	float: left;
+}
+
+#dynamic-meta-wrapper .dm-type-image .customSelect {
+	background: none;
+	margin-right: 0px;
+}
+
+.dm-type-image .customSelect:after {
+	content: "\25BC";
+}

@@ -1,0 +1,39 @@
+.dm-map-container {
+    background-color: #ADADAD;
+    height: 400px;
+    margin: 0px;
+    width: 100%;
+}
+
+
+.dm-type-map .dm-content-wrap .dm-content-box input {
+    width: 100%;
+    float: left;
+}
+
+.input-wrap {
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 130px;
+}
+
+.map-box-hide {
+    background: url("../../images/bt_acc_open.png") no-repeat scroll center center transparent;
+    color: #999999;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 0;
+    position: absolute;
+    right: 20px;
+    text-indent: -9999px;
+    top: 52px;
+    width: 20px;
+}
+
+.wrap-hide {
+	display: none;
+}
